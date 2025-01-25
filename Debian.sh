@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm README.md
 cp .bashrc /home/bahaa/.bashrc
 
 sudo apt install nala -y
