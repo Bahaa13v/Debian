@@ -5,7 +5,7 @@ cp .bashrc /home/bahaa/.bashrc
 
 sudo apt install nala -y
 sudo nala update
-sudo nala install xorg i3 alacritty fonts-noto pulseaudio pavucontrol tldr network-manager fastfetch w3m unzip -y
+sudo nala install xorg i3 alacritty fonts-noto pulseaudio pavucontrol tldr network-manager w3m unzip -y
 
 mkdir -p /home/bahaa/.config/alacritty
 mkdir /home/bahaa/.config/i3
