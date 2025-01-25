@@ -5,7 +5,7 @@ cp .bashrc /home/bahaa/.bashrc
 
 sudo apt install nala -y
 sudo nala updat
-sudo nala install xorg i3 alacritty fonts-noto
+sudo nala install xorg i3 alacritty fonts-noto -y
 
 mkdir -p /home/bahaa/.config/alacritty
 mkdir /home/bahaa/.config/i3
