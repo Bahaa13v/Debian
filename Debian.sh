@@ -8,9 +8,13 @@ sudo nala updat
 sudo nala install xorg i3 alacritty fonts-noto
 
 mkdir -p /home/bahaa/.config/alacritty
-mkdir -p /home/bahaa/.config/i3
+mkdir /home/bahaa/.config/i3
+mkdir /home/bahaa/.config/i3status
 
-sudo cp i3status.conf /etc/
+cp i3status.conf /home/bahaa/.config/i3status/config
 cp config /home/bahaa/.config/i3/
 cp alacritty.yml /home/bahaa/.config/alacritty/
 echo "exec i3" > /home/bahaa/.xinitrc
+
+wget https://dl.google.com/linux/direct/google-chrome-canary_current_amd64.deb
+sudo nala install -f -y
