@@ -13,3 +13,4 @@ mkdir -p /home/bahaa/.config/i3
 sudo cp i3status.conf /etc/
 cp config /home/bahaa/.config/i3/
 cp alacritty.yml /home/bahaa/.config/alacritty/
+echo "exec i3" > /home/bahaa/.xinitrc
