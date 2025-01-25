@@ -5,7 +5,7 @@ cp .bashrc /home/bahaa/.bashrc
 
 sudo apt install nala -y
 sudo nala update
-sudo nala install xorg i3 alacritty fonts-noto -y
+sudo nala install xorg i3 alacritty fonts-noto pulseaudio pavucontrol tldr network-manager -y
 
 mkdir -p /home/bahaa/.config/alacritty
 mkdir /home/bahaa/.config/i3
@@ -19,3 +19,7 @@ echo "exec i3" > /home/bahaa/.xinitrc
 wget https://dl.google.com/linux/direct/google-chrome-canary_current_amd64.deb
 sudo dpkg -i google-chrome-canary_current_amd64.deb
 sudo nala install -f -y
+
+alacritty migrate
+sudo rm /etc/network/interfaces
+sudo systemctl enable NetworkManager
