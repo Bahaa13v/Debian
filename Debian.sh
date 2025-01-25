@@ -17,4 +17,5 @@ cp alacritty.yml /home/bahaa/.config/alacritty/
 echo "exec i3" > /home/bahaa/.xinitrc
 
 wget https://dl.google.com/linux/direct/google-chrome-canary_current_amd64.deb
+sudo dpkg -i google-chrome-canary_current_amd64.deb
 sudo nala install -f -y
