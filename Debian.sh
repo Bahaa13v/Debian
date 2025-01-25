@@ -20,6 +20,11 @@ wget https://dl.google.com/linux/direct/google-chrome-canary_current_amd64.deb
 sudo dpkg -i google-chrome-canary_current_amd64.deb
 sudo nala install -f -y
 
+mkdir /home/bahaa/scripts
+cp inbr.sh /home/bahaa/scripts/
+cp dcbr.sh /home/bahaa/scripts/
+chmod +x /home/bahaa/scripts/*
+
 alacritty migrate
 sudo rm /etc/network/interfaces
 sudo systemctl enable NetworkManager
