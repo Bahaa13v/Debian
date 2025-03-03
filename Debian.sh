@@ -24,4 +24,4 @@ chmod +x /home/bahaa/scripts/*
 sudo rm /etc/network/interfaces
 sudo systemctl enable NetworkManager
 
-echo "exete c.sh after the first i3 launch!"
+echo "exete c.sh after the first i3 launch and comenting out the bar section!"
