@@ -25,4 +25,4 @@ sudo rm /etc/network/interfaces
 sudo systemctl enable NetworkManager
 
 echo "reboot and use nmtui"
-echo "exete c.sh after the first i3 launch and comenting out the bar section!"
+echo "exete c.sh after the first i3 launch and comenting out the last line in bar section!"
