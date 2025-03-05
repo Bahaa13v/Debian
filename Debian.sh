@@ -3,7 +3,7 @@
 
 sudo apt update && sudo apt full-upgrade -y
 sudo apt install fonts-noto-core fonts-noto-mono fonts-noto-color-emoji
-sudo apt install xorg i3 feh alacritty pulseaudio pavucontrol tldr network-manager w3m unzip thunar thunar-volman mc -y
+sudo apt install xorg i3 feh alacritty pulseaudio pavucontrol tldr network-manager w3m unzip thunar thunar-volman neovim -y
 
 mkdir -p /home/bahaa/.config/alacritty
 mkdir /home/bahaa/.config/i3status
