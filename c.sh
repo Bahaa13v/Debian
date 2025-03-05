@@ -10,7 +10,7 @@ echo "exec --no-startup-id setxkbmap -layout \"fr,ara\" -option \"grp:alt_shift_
 
 sed -i 's/font pango:monospace 8/font pango:Noto Sans 12/' $i3bcd
 sed -i 's/bindsym $mod+Return exec i3-sensible-terminal/bindsym $mod+Return exec alacritty/' $i3bcd
-echo "bindsym $mod+z exec google-chrome-stable" >> $i3bcd
+echo "bindsym \"$mod+z\" exec google-chrome-stable" >> $i3bcd
 sed -i 's/bindsym $mod+d exec --no-startup-id dmenu_run/bindsym $mod+d exec --no-startup-id dmenu_run -fn "Noto Sans"/' $i3bcd
 sed -i 's/exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork/#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork/' $i3bcd
 sed -i 's/bar {/#bar {/' $i3bcd
