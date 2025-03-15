@@ -24,5 +24,7 @@ chmod +x /home/bahaa/scripts/*
 sudo rm /etc/network/interfaces
 sudo systemctl enable NetworkManager
 
-echo "reboot and use nmtui"
-echo "exete c.sh after the first i3 launch and comenting out the last line in bar section!"
+
+echo "reboot and run i3 for the fist time to auto generate config"
+echo "and then use nmtui and also comment out the last line of i3 config in bar section
+echo "and finally run c.sh"
