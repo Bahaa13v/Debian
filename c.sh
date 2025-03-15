@@ -6,7 +6,7 @@ echo "new_float pixel 0" >> $i3bcd
 
 echo "gaps inner 2" >> $i3bcd
 
-echo "exec --no-startup-id setxkbmap -layout \"fr,ara\" -option \"grp:alt_shift_toggle" >> $i3bcd
+echo "exec --no-startup-id setxkbmap -layout \"us,ara\" -option \"grp:alt_shift_toggle" >> $i3bcd
 
 sed -i 's/font pango:monospace 8/font pango:Noto Sans 12/' $i3bcd
 sed -i 's/bindsym $mod+Return exec i3-sensible-terminal/bindsym $mod+Return exec alacritty/' $i3bcd
